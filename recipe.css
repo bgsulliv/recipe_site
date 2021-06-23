@@ -1,0 +1,148 @@
+body {
+  background-color: #8ba1bb;
+  font-family: Arial;
+  margin: 30px;
+}
+
+p.category {
+  font-size: 50px;
+  background-color: black;
+  font-weight: bold;
+  color: white;
+  display: inline-block;
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+
+  padding: 8px 20px;
+}
+div.category {
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+}
+.center {
+  text-align: center;
+  width: 100%;
+}
+div.line {
+  background-color: black;
+  height: 1px;
+  width: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.content {
+  background-color: white;
+  margin: 0px 10% 80px 10%;
+  padding: 30px;
+  min-width: 350px;
+  box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0);
+
+  overflow: auto;
+}
+div.info {
+  position: relative;
+}
+table.info {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  background-color: #6c829dc0;
+  height: 80px;
+}
+/*All of the td of the table with the info class*/
+table.info td {
+  text-align: center;
+  vertical-align: top;
+  font-size: 14px;
+}
+table.info th {
+  vertical-align: bottom;
+  padding-bottom: 8px;
+  font-size: 18px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p.description {
+  text-align: center;
+  max-width: 400px;
+  display: inline-block;
+  font-style: italic;
+}
+
+img.info {
+  max-height: 300px;
+  min-height: 200px;
+  object-fit: cover;
+  display: block;
+  background-color: lightgrey;
+}
+
+div.col {
+  width: 45%;
+}
+
+div.ingredients p {
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #000000;
+  padding: 8px 0%;
+  margin-top: 4px;
+  margin-bottom: 0px;
+}
+
+div.col h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bolder;
+  border-bottom: 10px solid #6c829d;
+  padding-bottom: 5px;
+}
+
+div.col1 {
+  width: 45%;
+  display: inline-block;
+}
+
+div.col2 {
+  float: right;
+  width: 45%;
+}
+
+table.Instructions p.number {
+  background-color: #6c8290;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  width: 25px;
+  height: 25px;
+  text-align: center;
+  padding-top: 5px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  margin: 0;
+}
+
+table.Instructions td.instruction_step {
+  padding-left: 10px;
+  padding-bottom: 10px;
+  font-size: 14px;
+}
+table.Instructions td {
+  vertical-align: top;
+}
+
+table.Instructions tr {
+  height: 40px;
+}
+
+* {
+  overflow: auto;
+}
